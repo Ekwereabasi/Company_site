@@ -1,4 +1,4 @@
-/* Container for the form */
+/* 
 .container {
   width: 100%;
   max-width: 600px;
@@ -9,7 +9,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Form elements */
 form {
   display: flex;
   flex-direction: column;
@@ -19,13 +18,11 @@ form>div {
   margin-bottom: 15px;
 }
 
-/* Labels */
 label {
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-/* Input fields */
 input[type="text"],
 input[type="email"],
 textarea,
@@ -43,12 +40,10 @@ input[type="file"] {
   font-size: 16px;
 }
 
-/* Checkbox */
 input[type="checkbox"] {
   margin-right: 10px;
 }
 
-/* Submit button */
 button[type="submit"] {
   padding: 12px 20px;
   font-size: 16px;
@@ -63,3 +58,11 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #cc0066;
 }
+
+
+ */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
