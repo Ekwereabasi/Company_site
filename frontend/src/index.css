@@ -60,6 +60,136 @@ button[type="submit"]:hover {
 }
 
 
+/*//////////////////////////////////////////////////////*/
+
+/*about page css*/
+
+body, html {
+  margin: 0;
+}
+
+.about-page {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url("/images/numjin-about.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+}
+
+.about-page h1 {
+  color: #0C307A;
+  text-align: center;
+}
+
+
+
+.who-we-are, .our-mission, .our-goals, .our-vision, .our-values {
+  background-color: #0C307A;
+  opacity: 1;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.who-we-are h2, .our-mission h2, .our-goals h2, .our-vision h2, .our-values h2 {
+  color: #fff;
+  font-family: ;
+}
+
+.who-we-are p, .our-mission p, .our-goals p, .our-vision p, .our-values p {
+  color: #fff;
+  font-family: ;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 10px;
+  }
+  .who-we-are, .our-mission, .our-goals, .our-vision, .our-values {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-page {
+    padding: 5px;
+  }
+  .who-we-are, .our-mission, .our-goals, .our-vision, .our-values {
+    padding: 5px;
+  }
+}
+
+
+
+
+/*//////////////////////////////////////////////////////*/
+
+/* work page css*/
+
+
+.work-page {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+  .project {
+    margin-bottom: 20px;
+  }
+}
+
+.project {
+  background: #0098da;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.project h2 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.project p {
+  color: #fff;
+  font-size: 16px;
+}
  */
 
 
