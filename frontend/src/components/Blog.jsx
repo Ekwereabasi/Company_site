@@ -1,12 +1,38 @@
-import React from 'react';
+import React from 'react'
+import NavBar from '../components/Reuseable/NavBar'
+import Footer from '../components/Reuseable/Footer'
+
 
 const Blog = () => {
-    return (
-        <div className="container">
-            <h1>Our Blog</h1>
-            <p>Lets get you excited on the latest happenings</p>
-        </div>
-    );
-};
 
-export default Blog;
+  // #0c307a #0a2d93 #0098da
+  return (
+    <>
+      <section className='navWrapper bg-[#0c307a] '>
+        <NavBar />
+      </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <section className=' '>
+        <Footer />
+      </section>
+
+    </>
+  )
+}
+
+export default Blog

@@ -1,12 +1,39 @@
-import React from 'react';
+import React from 'react'
+import NavBar from '../components/Reuseable/NavBar'
+import Footer from '../components/Reuseable/Footer'
+
 
 const Pricing = () => {
-    return (
-        <div className="container">
-            <h1>Our Pricing</h1>
-            <p>Explore a range of prices we offer to our clients.</p>
-        </div>
-    );
-};
 
-export default Pricing;
+  // #0c307a #0a2d93 #0098da
+  return (
+    <>
+    
+      <section className='navWrapper bg-[#0c307a] '>
+        <NavBar />
+      </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <section className=' '>
+        <Footer />
+      </section>
+
+    </>
+  )
+}
+
+export default Pricing

@@ -1,12 +1,38 @@
-import React from 'react';
+import React from 'react'
+import NavBar from '../components/Reuseable/NavBar'
+import Footer from '../components/Reuseable/Footer'
+
 
 const BookACall = () => {
-    return (
-        <div className="container">
-            <h1>Book A Call</h1>
-            <p>In less than a minute you can get started with you project. Just book a call</p>
-        </div>
-    );
-};
+
+  // #0c307a #0a2d93 #0098da
+  return (
+    <>
+      <section className='navWrapper bg-[#0c307a] '>
+        <NavBar />
+      </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <section className=' '>
+        <Footer />
+      </section>
+
+    </>
+  )
+}
 
 export default BookACall;
