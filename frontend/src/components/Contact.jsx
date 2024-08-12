@@ -61,7 +61,13 @@ const Contact = () => {
     };
 
     return (
-        <div className="container">
+        <>
+        
+          <section className='navWrapper bg-[#0c307a] '>
+          <NavBar />
+         </section>
+
+          <div className="container">
             <h1>Contact Us</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
@@ -92,7 +98,8 @@ const Contact = () => {
                 </div>
                 <button type="submit">Submit</button>
             </form>
-        </div>
+          </div>
+        </>
     );
 };
 

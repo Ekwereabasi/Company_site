@@ -1,22 +1,16 @@
-import React from 'react'
+import React from 'react';
 import NavBar from '../components/Reuseable/NavBar'
 import Footer from '../components/Reuseable/Footer'
 
 
+
 const Work = () => {
-
-  // #0c307a #0a2d93 #0098da
-  return (
-    <>
-  
-      <section className='navWrapper bg-[#0c307a] '>
-        <NavBar />
-      </section>
-
-      <link rel="stylesheet" href="Work.css" />
+    return (
+    <div className="work-page">
+      <NavBar className = "navbar-no-mt" />
+        <link rel="stylesheet" href="Work.css" />
       <h1>Our Work</h1>
-      <div className=" mr-20 ml-20 mt-20 projects">
-       
+      <div className="projects">
         <div className="project">
           <img src={"/images/pics1.avif"} alt="Project 1" />
           <h2>Project 1</h2>
@@ -48,14 +42,11 @@ const Work = () => {
           <p>Short description of Project 3</p>
         </div>
       </div>
-  
-
-      <section className=' '>
-        <Footer />
+      <section>
+      <Footer className="footer-mt" />
       </section>
+    </div>
+    );
+};
 
-    </>
-  )
-}
-
-export default Work
+export default Work;

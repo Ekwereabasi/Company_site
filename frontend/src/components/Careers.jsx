@@ -1,12 +1,39 @@
-import React from 'react';
+import React from 'react'
+import NavBar from '../components/Reuseable/NavBar'
+import Footer from '../components/Reuseable/Footer'
+
 
 const Careers = () => {
-    return (
-        <div className="container">
-            <h1>Our Careers</h1>
-            <p>We would love you to be a part of our dynamic team</p>
-        </div>
-    );
-};
 
-export default Careers;
+  // #0c307a #0a2d93 #0098da
+  return (
+    <>
+    
+      <section className='navWrapper bg-[#0c307a] '>
+        <NavBar />
+      </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <section className=' '>
+        <Footer />
+      </section>
+
+    </>
+  )
+}
+
+export default Careers

@@ -1,12 +1,19 @@
-import React from 'react';
+import React from 'react'
+import NavBar from '../components/Reuseable/NavBar'
+import Footer from '../components/Reuseable/Footer'
 
 const AboutPage = () => {
   return (
-    <div className="about-page">
+    <>
+      <section className='navWrapper bg-[#0c307a] '>
+        <NavBar className='mb-50' />
+      </section>
+
+      <div className="about-page ">
         <link rel="stylesheet" href="index.css" />
-      <h1>About Us</h1>
+       <h1>About Us</h1>
     
-      <section className="who-we-are">
+      <section className="who-we-are mt-20">
         <h2>About Us</h2>
         <p>Numjin Tech and Digital Services! your trusted partner in technology innovation and digital transformation. We are dedicated to providing top-notch tech solutions that drive success and growth for businesses across various industries. Our comprehensive range of services is designed to meet your unique needs, ensuring your digital infrastructure is robust, efficient, and future-ready.
         </p>
@@ -41,7 +48,12 @@ const AboutPage = () => {
         <h2>Our Expertise</h2>
         <p>With years of experience and a diverse portfolio, we bring a wealth of knowledge and expertise to every project. Our team of professionals is adept at understanding the unique requirements of different industries and delivering solutions that are both practical and innovative.</p>
       </section>
-    </div>
+      </div>
+      
+      <section className=' '>
+        <Footer />
+      </section>
+    </>
   );
 };
 
